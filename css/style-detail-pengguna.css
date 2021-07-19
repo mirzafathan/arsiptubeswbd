@@ -1,0 +1,146 @@
+.detail {
+    margin: 0;
+}
+
+/* Detail pengguna */
+.detail-pengguna {
+    width: 85%;
+    margin: 5% auto;
+}
+
+/* Chocolate Name */
+#choco-name {
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Container for chocolate detail */
+.choco-container {
+    width: 100%;
+}
+
+#choco-img img{
+    float: left;
+    width: 35%;
+    height: 400px;
+}
+
+#choco-detail {
+    font-size: 20px;
+    float: left;
+    margin: auto 0 auto 5%;
+    padding: 15px;
+    width: 60%;
+    min-height: 300px;
+    border: 2px dashed #000014;
+    border-radius: 1%;
+}
+
+#desc {
+    overflow-wrap: break-word;
+}
+
+#buy-active{
+    display: none;
+}
+
+#buy-detail-1 {
+    width: 100%;
+    /* margin-left: 40%; */
+    float: left;
+}
+
+#buy-detail-1 p {
+    float: left;
+    margin-right: 10%;
+}
+
+#buy-detail-2 {
+    width: 60%;
+    margin-left: 40%;
+    float: left;
+}
+
+.count-box-button {
+    width: 5%;
+    float: left;
+    background-color: #4CAF50;
+    color: #000014;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.count-box-button:hover {
+    opacity: 1;
+}
+
+#count-box {
+    width: 5%;
+    float: left;
+    text-align: center;
+}
+
+#total-price {
+    float: left;
+    margin-left: 10%;
+}
+
+#addr{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-weight: normal;
+}
+
+label {
+    display: inline-block;
+    width: 100%;
+}
+
+/* Button */
+#buy {
+    float: right;
+    background-color: #4CAF50;
+    color: #000014;
+    padding: 14px 20px;
+    margin: 10% 0 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+}
+
+#buy:hover {
+    opacity: 1;
+}
+
+.button-active {
+    float: right;
+    background-color: #4CAF50;
+    color: #000014;
+    padding: 14px 20px;
+    margin: 3% 2% 0;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    opacity: 0.9;
+}
+
+.button-active:hover {
+    opacity: 1;
+}
+
+#count-box {
+    border: none;
+}
+
+#count-box:focus {
+    outline: none;
+}

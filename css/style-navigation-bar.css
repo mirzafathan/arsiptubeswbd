@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Navigation bar */
+.navBar {
+    position: relative;
+    overflow: hidden;
+    background-color: #000014;
+    font-weight: bold;
+}
+
+/* Navigation bar left position */
+.navBar-left a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px 16px;
+    display: block;
+    cursor: pointer;
+}
+
+.navBar-left a:hover {
+    background-color: #303030;
+}
+
+.navBar-left a:active {
+    background-color: #3a1aee;
+}
+
+/* Navigation bar right positon */
+.navBar-right a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px 16px;
+    display: block;
+    cursor: pointer;
+}
+
+.navBar-right a:hover {
+    background-color: #303030;
+}
+
+.navBar-right a:active {
+    background-color: #3a1aee;
+}
+
+/* Navigation bar center position */
+.navBar-center {
+    width: 30%;
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.navBar-center input[type=text] {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-weight: normal;
+}
+
+.navBar-center input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.search-boxs input[type=text] {
+    float: left;
+    width: 80%;
+}
+
+.search-boxs button{
+    padding: 8px;
+    width: 20%;
+    float: left;
+}

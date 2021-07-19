@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 5% auto;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+}
+
+#hello {
+    font-weight: bold;
+    float: left;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #000014;
+}
+
+.name-on-hover:hover {
+    color: crimson;
+}
+
+#all-choco {
+    float: right;
+    background-color: #ffffff;
+    color: #000014;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+#all-choco:hover {
+    outline: none;
+}
+
+.dashboard-container {
+    display: block;
+    float: left;
+    width: 18%;
+    min-width: 200px;
+    margin: auto 2% 3% auto;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.choco-pic img{
+    padding: 1% 5%;
+    width: 100%;
+    min-width: 100px;
+    height: 180px;
+    border-bottom: 1px solid black;
+}
+
+.choco-des{
+    padding: 3% 5%;
+    width: 100%;
+    min-width: 100px;
+    height: 120px;
+}

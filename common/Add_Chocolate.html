@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Willy Wangky</title>
+    <link rel="stylesheet" href="../css/detail-pengguna.css">
+    <link rel="stylesheet" href="../css/style-navigation-bar.css">
+<style>
+
+.Input{
+    width: 500px;
+    margin-left:  50px;
+}
+.Amount{
+    width: 500px;
+    margin-left:  25px;
+}
+.description{
+    width: 500px;
+    height: 200px;
+    margin-left:  80px;
+}
+.Sumbit_image{
+    width: 100px
+    float : right;
+    margin-left:  40px;
+}
+.Sumbit_ADD{
+    width: 100px
+    float : right;
+    margin-left:  500px; 
+}
+
+}
+</style>
+</head>
+<body class="detail">
+    <div class="navBar">
+        <div class="navBar-left">
+            <a href="">Home</a>
+            <a href="">History</a>
+        </div>
+        <div class="navBar-center">
+            <input type="text" placeholder="search...">
+        </div>
+        <div class="navBar-right">
+            <a href="">Logout</a>
+        </div>
+    </div>
+    <h1>Add New Chocolate</h1>
+    <label for="name">name</label>
+    <input class = "Input" placeholder="name" name="name" required>
+    <br></br>
+    <label for="price">price</label>
+    <input class = "Input" placeholder="Enter price" name="price" required>
+    <br></br>
+    <label for="description">description</label>
+    <br></br>
+    <textarea class = "description" placeholder="description" name="description" required></textarea>
+    <br></br>
+    <label for="image">image</label>
+    <button class="Sumbit_image" type="submit">Upload file</button>
+    <br><br>
+    <label for="Amount">Amount</label>
+    <input class = "Amount" placeholder="Amount" name="Amount" required>
+    <br></br>
+     <div>
+            <button  class = "Sumbit_ADD" type="submit">Add Chocolate</button>
+    </div>
+</body>
+</html>

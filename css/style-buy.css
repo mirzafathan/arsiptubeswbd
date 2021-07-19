@@ -1,0 +1,61 @@
+.image-placeholder{
+	position: absolute;
+	left: 200px;
+	top: 100px;
+}
+
+.description{
+	left: 600px;
+	top: 100px;
+	position: absolute;
+}
+
+.add{
+	left: 600px;
+	top: 300px;
+	position: absolute;
+}
+
+#minbutton, #addbutton{
+ 	padding: 5px 5px 5px 5px;
+}
+
+#displayCount{
+	margin: 10px 10px 10px 10px;
+}
+
+.total{
+	transform: translate(200px, -50px); 
+}
+
+.address{
+	width: 50%;
+	left: 200px;
+	top: 400px;
+	position: absolute;
+}
+
+input[type=text]{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-weight: normal;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
